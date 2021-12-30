@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/">
+</head>
+<body>
+    <div class="container-fluid top" style="border-bottom: blue 3px solid;">    
+    </div>
+    <div class="container head">
+        <div class="menu">
+          <div class="logo">
+           <img src="../img/bc-logo.png" alt="" style="width:40%;height:40%;">
+        </div>
+          <ul>
+            <li><a href="#" style="background-color: rgb(212, 207, 216);">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">ទំព័រដើម</a></li>
+            <li><a href="#">ទំព័រដើម</a></li>
+            <li><a href="#">ទំព័រដើម</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container slide">
+      <div class="row">
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="../img/pic3.jpg">
+      <img class="mySlides" src="../img/svg.png">
+      <img class="mySlides" src="../img/morocco.png">
+      <img class="mySlides" src="../img/pic3.jpg">
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+  </div>
+</div>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+  <br>
+  <br>
+    <div class="container textf">
+      <div class="row">
+        <div class="col-12">
+          <h1>Discover an effortless hosting experience</h1>
+          <p> Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business! Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business! Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business! Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business! Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="row">
+        <div class="col-6 text">
+          <p>Thoughtfully built tools to manage your clients and websites while growing your business.Thoughtfully built tools to manage your clients and websites while growing your business.Thoughtfully built tools to manage your clients and websites while growing your business.Thoughtfully built tools to manage your clients and websites while growing your business.</p>
+        </div>
+        <div class="col-6 img">
+          <img src="../img/pic.png" alt="">
+        </div>
+      </div>
+    </div>
+    
+      <div class="container content1">
+        <div class="row">
+        <div class="con1">
+dfd
+        </div>
+        <div class="con2">
+          fd
+        </div>
+        <div class="con3">
+          dfd
+        </div>
+      </div>
+    </div>
+    <div class="container content2">
+      <div class="row">
+        <div class="col-6 tent1">
+          <img src="../img/pic.png" alt="">
+        </div>
+        <div class="col-6 tent2">
+dsd
+        </div>
+      </div>
+    </div>
+<br>
+<div class="container sin">
+  <div class="box">
+    <img src="../img/pic.png" alt="">
+  </div>
+</div>
+<br>
+
+    <footer>
+      <div class="container-fluid bot">
+        <div class="row">
+          <div class="col-12 bot1">
+            <img src="../bannho.jpg" alt="" width="100%" height="450px">
+            <div class="hidden">
+              <p>Thoughtfully built tools to manage your clients and websites while growing your business.Thoughtfully built tools to manage your clients and websites while growing your business.Thoughtfully built tools to manage your clients and websites while growing your business.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 bot4">
+            <ul>
+           <li><a href="#"><i class="fa fa-instagram" style="font-size: 35px;"></a></i></li>
+           <li><a href="#"><i class="fa fa-facebook-square" style="font-size: 35px;"></a></i></li>
+           <li><a href="#"><i class="fa fa-pinterest" style="font-size: 35px;"></a></i></li>
+           <li><a href="#"><i class="fa fa-youtube" style="font-size: 35px;"></a></i></li>
+           <li><a href="#"><i class="fa fa-twitter" style="font-size: 35px;"></a></i></li>
+          
+           
+           </ul>
+          </div>
+        </div>
+           <p>Copyright 2021 © Moz, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>
